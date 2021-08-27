@@ -37,7 +37,5 @@
     ]
   },
   "main": "index.js",
-  "repository": "https://github.com/hugowxyz/brogramming",
-  "author": "hugo <phanhuyhugo@gmail.com>",
   "license": "MIT"
 }
