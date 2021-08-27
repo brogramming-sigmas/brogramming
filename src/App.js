@@ -55,13 +55,6 @@ function App() {
 
   return (
     <div className="app">
-      <div className="container">
-        <h1 className="font-bold">Sigma</h1>
-        <h2>Give feedback</h2>
-        <Feedback {...feedbackControls}/>
-        <h2>Statistics</h2>
-        <Statistics {...statisticsControls} />
-      </div>
     </div>
   );
 }
