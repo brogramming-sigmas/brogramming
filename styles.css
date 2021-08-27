@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: lightgray;
+}
+
+
+.container {
+    max-width: 960px;
+}
