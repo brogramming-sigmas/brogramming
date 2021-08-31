@@ -14,3 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.spacer {
+  background-repeat:repeat-y;
+  background-position: bottom;
+  background-size:cover;
+  gap: 0;
+}
+
+.layer {
+  background-image: url('../public/peaks.svg')
+}
+
+.layer-g {
+  background-image: url('../public/gradient.svg')
+}
+.layer-b {
+  background-image: url('../public/blob.svg')
+}
