@@ -8,12 +8,12 @@ export default function Home() {
     <>
       <VStack w="100%" bg="white" h="100%" spacing={0}>
         <VStack>
-          <Center className="spacer layer" minH="100vh" maxH="100vh" w="100%" maxW="100vw">
+          <Center className="spacer layer" minH="100vh" maxH="100vh" w="100%" maxW="100vw" p={8}>
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
               <VStack>
                 <Heading color="black">👊 Brogramming 👊 </Heading>
                 <Heading color="#F5730A ">A mindset.</Heading>
-                <Heading color="black">Welcome to the brotherhood.</Heading>
+                <Heading color="black" textAlign="center">Welcome to the brotherhood.</Heading>
               </VStack>
             </Box>
           </Center>
@@ -42,11 +42,12 @@ export default function Home() {
 
               </VStack>
             </Box>
-          </Center><Center className="spacer layer-g" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
+          </Center>
+          <Center className="spacer layer-g" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
-              <VStack alignItems="center">
-                <Heading mb="1em">Upcoming brovents and projects:</Heading>
-                <SimpleGrid columns={[1, 1, 1, 2, 2, 3]} w="60vw" spacing="16px">
+              <VStack alignItems="center" w="100%">
+                <Heading color="white" mb="1em">Upcoming brovents and projects:</Heading>
+                <SimpleGrid columns={[1, 1, 1, 2, 2, 3]} spacing="16px">
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
                     <VStack textAlign="left" alignItems="start">
                       <Heading color="#F5730A">BroCoin</Heading>
@@ -79,12 +80,12 @@ export default function Home() {
           <Box display="flex" flexDirection="column" alignContent="center" className="spacer" minH="40vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
             <VStack alignItems="center">
               <Heading mb="1em" color="#F5730A">Contacting a bro:</Heading>
-              <Heading size="lg" mb="1em" color="black">If you would like to contact a bro, simply think a thought.</Heading>
+              <Heading textAlign="center" size="lg" mb="1em" color="black">If you would like to contact a bro, simply think a thought.</Heading>
             </VStack>
             <Spacer>
             </Spacer>
 
-            <Heading color="black">Brogramming. Copyright 2021.</Heading>
+            <Heading textAlign="center" color="black">Brogramming. Copyright 2021.</Heading>
 
           </Box>
         </VStack>
