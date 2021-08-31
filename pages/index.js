@@ -31,17 +31,21 @@ export default function Home() {
                 </Heading>
                 <Heading color="white" textAlign="right" size="lg">Anyone and everyone can be a brogrammer.
                 </Heading>
-                {/* <Heading color="white" textAlign="right">What is the brocode?</Heading>
-                <Heading color="white" size="lg" textAlign="right">
-                  The brogramming brocode presents just a few core rules:
-                  <Heading size="lg">A bro should not touch grass.</Heading>
-                  <Heading size="lg">A bro should never put down another bro.</Heading>
-                  <Heading size="lg">All bros must look after other bros.</Heading>
-                  <Heading size="lg">A brogrammer specifically, should never use a 🤢 HTML 🤮 template.</Heading>
-                </Heading> */}
+
 
               </VStack>
             </Box>
+          </Center>
+          <Center display="flex" flexDirection="column" alignContent="center" className="spacer" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
+            <Heading size="2xl" mb="1em" color="black" textAlign="center">What is the brocode?</Heading>
+            <Heading mb="1em" size="xl" color="#F5730A " size="lg" textAlign="left">The brogramming brocode presents just a few core rules:</Heading>
+
+            <Heading color="black" textAlign="left" size="lg">A bro should not touch grass.</Heading>
+            <Heading color="black" textAlign="left" size="lg">A bro should never put down another bro.</Heading>
+            <Heading color="black" textAlign="left" size="lg">All bros must look after other bros.</Heading>
+            <Heading mb="1em" color="black" textAlign="left" size="lg">A brogrammer specifically, should never use a 🤢 HTML 🤮 template.</Heading>
+            <Heading mb="1em" size="xl" color="#F5730A " size="lg" textAlign="left">Other rules are engrained into your brain once you chose the grindset.</Heading>
+
           </Center>
           <Center className="spacer layer-g" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
