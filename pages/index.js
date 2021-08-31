@@ -36,7 +36,7 @@ export default function Home() {
               </VStack>
             </Box>
           </Center>
-          <Center display="flex" flexDirection="column" alignContent="center" className="spacer" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
+          <Center display="flex" flexDirection="column" alignContent="center" className="spacer" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={8}>
             <Heading size="2xl" mb="1em" color="black" textAlign="center">What is the brocode?</Heading>
             <Heading mb="1em" size="xl" color="#F5730A " textAlign="center">The brogramming brocode presents just a few core rules:</Heading>
 
