@@ -72,7 +72,7 @@ export default function Home() {
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
                     <VStack textAlign="left" alignItems="start">
                       <Heading color="#F5730A">BroCon 2021</Heading>
-                      <Text color="black">BroCon 2021 will be held telepathically.You will know when it starts.</Text>
+                      <Text color="black">BroCon 2021 will be held telepathically. You will know when it starts.</Text>
                     </VStack>
                   </Box>
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
