@@ -49,7 +49,7 @@ export default function Home() {
           <Center className="spacer layer-g" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
               <VStack alignItems="center" w="100%">
-                <Heading color="white" mb="1em">Upcoming eents and brojects: </Heading>
+                <Heading color="white" mb="1em">Upcoming events and brojects: </Heading>
                 <SimpleGrid columns={[1, 1, 1, 2, 2, 3]} spacing="16px">
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
                     <VStack textAlign="left" alignItems="start">
