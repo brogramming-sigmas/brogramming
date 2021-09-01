@@ -93,7 +93,7 @@ export default function Home() {
             <Spacer>
             </Spacer>
 
-            <Heading textAlign="center" color="black">Brogramming.Copyright 2021.</Heading>
+            <Text textAlign="center" color="black">Brogramming. Copyright 2021.</Text>
 
           </Box>
         </VStack>
