@@ -54,7 +54,7 @@ export default function Home() {
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
                     <VStack textAlign="left" alignItems="start">
                       <Heading color="#F5730A">BroCoin</Heading>
-                      <Text color="black">The next big, non-scam crypto with absolutely zero utility.TO THE MOON! 🚀 </Text>
+                      <Text color="black">The next big, non-scam crypto with absolutely zero utility. TO THE MOON! 🚀 </Text>
                     </VStack>
                   </Box>
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
@@ -66,7 +66,7 @@ export default function Home() {
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
                     <VStack textAlign="left" alignItems="start">
                       <Heading color="#F5730A">Non Fungible Bros</Heading>
-                      <Text color="black">NFTs?Get out of here.The next big wave is bro based digital assets, and you will find them first right here.</Text>
+                      <Text color="black">NFTs? Get out of here. The next big wave is bro based digital assets, and you will find them first right here.</Text>
                     </VStack>
                   </Box>
                   <Box rounded="2xl" h="auto" w="300px" bg="white" p={8}>
