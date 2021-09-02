@@ -33,3 +33,53 @@ a {
 .layer-b {
   background-image: url('../public/blob.svg')
 }
+
+.hover-card{
+  background: white;
+  transition: background 200ms ease;
+}
+
+.underline-text{
+  background-image: linear-gradient(90deg, #F5730A);
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+}
+
+.underline-text:hover{
+  background-size: 100% 4px;
+}
+
+.underline-text-black{
+  background-image: linear-gradient(90deg, black);
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+}
+
+.underline-text-black:hover{
+  background-size: 100% 4px;
+}
+
+.underline-text-white{
+  background-image: linear-gradient(90deg, white);
+  background-size: 0% 4px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+}
+
+.underline-text-white:hover{
+  background-size: 100% 4px;
+}
+
+.hover-card:hover{
+  background: #F5730A
+}
+
+.hover-card:hover .card-text{
+  transition: color 200ms ease;
+  color: white;
+}
