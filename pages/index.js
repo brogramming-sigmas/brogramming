@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <Head>
         <title>Brogramming</title>
-        <meta>name="viewport" content="initial-scale=1.0, width=device-width"</meta>
         <meta name="description" content="Brogramming, the home of all brogrammers." />
 
       </Head>
