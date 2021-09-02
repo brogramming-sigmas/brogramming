@@ -1,7 +1,14 @@
 import { Box, Center, Heading, SimpleGrid, Spacer, Text, VStack } from '@chakra-ui/layout'
+import { useEffect } from 'react';
 import Head from 'next/head'
+import AOS from 'aos';
 
+import 'aos/dist/aos.css';
 export default function Home() {
+  useEffect(() => {
+    AOS.init()
+
+  }, [])
   return (
     <>
       <Head>
@@ -14,7 +21,7 @@ export default function Home() {
           <Text color="black">Update: Brogramming has agreed upon peace treaty talks with compsisters.co.uk. More updates will be provided soon.</Text>
         </Box>
         <VStack>
-          <Center className="spacer layer" minH="100vh" maxH="100vh" w="100%" maxW="100vw" p={8}>
+          <Center className="spacer layer" minH="100vh" maxH="100vh" w="100%" maxW="100vw" p={8} data-aos="fade-in">
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
               <VStack>
                 <Heading color="black">👊 Brogramming 👊 </Heading>
@@ -23,7 +30,7 @@ export default function Home() {
               </VStack>
             </Box>
           </Center>
-          <Center className="spacer layer-b" h="100%" minH="100vh" w="100%" maxW="100vw" alignItems="center" p={16}>
+          <Center className="spacer layer-b" h="100%" minH="100vh" w="100%" maxW="100vw" alignItems="center" p={16} data-aos="fade-up">
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
               <VStack alignItems="left">
 
@@ -42,7 +49,7 @@ export default function Home() {
               </VStack>
             </Box>
           </Center>
-          <Center display="flex" flexDirection="column" alignContent="center" className="spacer" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={8}>
+          <Center display="flex" flexDirection="column" alignContent="center" className="spacer" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={8} data-aos="fade-left">
             <Heading size="2xl" mb="1em" color="black" className="underline-text-black" textAlign="center">What is the brocode?</Heading>
             <Heading mb="1em" size="xl" color="#F5730A " textAlign="center">The brogramming brocode presents just a few core rules: </Heading>
 
@@ -52,7 +59,7 @@ export default function Home() {
             <Heading mb="1em" color="black" textAlign="center" size="lg">A brogrammer specifically, should never use a 🤢 HTML 🤮 template.</Heading>
             <Heading mb="1em" size="xl" color="#F5730A " textAlign="center">Other rules are engrained into your brain once you chose the grindset.</Heading>
           </Center>
-          <Center className="spacer layer-g" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16}>
+          <Center className="spacer layer-g" minH="100vh" h="100%" w="100%" maxW="100vw" alignItems="center" p={16} data-aos="zoom-in-up">
             <Box display="flex" h="100%" w="100%" justifyContent="center" alignItems="center">
               <VStack alignItems="center" w="100%">
                 <Heading color="white" mb="1em" className="underline-text-white">Upcoming events and brojects: </Heading>
