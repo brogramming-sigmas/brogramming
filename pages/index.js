@@ -1,14 +1,18 @@
+import { Box, Center, Heading, SimpleGrid, Spacer, Text, VStack } from '@chakra-ui/layout'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Man from '../public/man.svg'
-import { Box, Heading, VStack, Center, SimpleGrid, Text, Spacer } from '@chakra-ui/layout'
+
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Brogramming</title>
+        <meta>name="viewport" content="initial-scale=1.0, width=device-width"</meta>
+        <meta name="description" content="Brogramming, the home of all brogrammers." />
+
+      </Head>
       <VStack w="100%" bg="white" h="100%" spacing={0}>
         <Box w="100%" h="10" display="flex" justifyContent="center" alignItems="center" boxShadow="dark-lg">
-          <Text color="black">Update: Brogramming has agreed upon peace treaty talks with compsisters.co.uk. Updates will be provided soon.</Text>
+          <Text color="black">Update: Brogramming has agreed upon peace treaty talks with compsisters.co.uk. More updates will be provided soon.</Text>
         </Box>
         <VStack>
           <Center className="spacer layer" minH="100vh" maxH="100vh" w="100%" maxW="100vw" p={8}>
